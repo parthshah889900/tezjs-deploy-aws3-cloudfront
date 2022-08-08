@@ -27,6 +27,6 @@ Make sure you have:
 2. Create one purge or invalidation in Cloudfront service of path `/*`
   
 ## Reference link:
-- ![Deploy static site using s3 and cloudfront](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serve-static-website/#:~:text=To%20serve%20a%20static%20website%20hosted%20on%20Amazon%20S3%2C%20you,with%20anonymous%20(public)%20access%20allowed)
+- [Deploy static site using s3 and cloudfront](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serve-static-website/#:~:text=To%20serve%20a%20static%20website%20hosted%20on%20Amazon%20S3%2C%20you,with%20anonymous%20(public)%20access%20allowed)
   
 
