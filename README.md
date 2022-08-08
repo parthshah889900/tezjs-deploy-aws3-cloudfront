@@ -18,11 +18,11 @@ Make sure you have:
   - AWS-Cli install.
   - IAM-Account needed with s3 and cloudfront permission.
   - AWS need to configure.
-  - Bucket should be created.
-  - Cloudfront should be created which have a reference of bucket that you have see in previouse step.
-
 ## Deployment:
-1. Copy the dist to S3 bucket by using console or given aws-cli command 
+Go to https://aws.amazon.com/amplify/console/ to get started.
+1. Create a S3 Bucket.
+2. Create a Cloufront which have a reference of bucket that you have see in previouse step.
+3. Copy the dist to S3 bucket by using console or given aws-cli command 
   `aws s3 cp dist/* [s3uri] --recursive`
 2. Create one purge or invalidation in Cloudfront service of path `/*`
   
