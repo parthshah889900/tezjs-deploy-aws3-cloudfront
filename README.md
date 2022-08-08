@@ -28,5 +28,5 @@ Go to https://aws.amazon.com/amplify/console/ to get started.
   
 ## Reference link:
 - [Deploy static site using s3 and cloudfront](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serve-static-website/#:~:text=To%20serve%20a%20static%20website%20hosted%20on%20Amazon%20S3%2C%20you,with%20anonymous%20(public)%20access%20allowed)
-  
+- [AWS-Cli install]( https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html )
 
