@@ -12,9 +12,21 @@ Run the following command to create tezjs project:
   - `npm run build` - for build the project
   - `npm run dev` - for run the project
 
-# Pre-requisites
+## Pre-requisites
 Make sure you have:
-  - Firebase account.
-  - node installed in your machine.
-  - created a firebase project.
+  - AWS account
+  - AWS-Cli install.
+  - IAM-Account needed with s3 and cloudfront permission.
+  - AWS need to configure.
+  - Bucket should be created.
+  - Cloudfront should be created which have a reference of bucket that you have see in previouse step.
+
+## Deployment:
+1. Copy the dist to S3 bucket by using console or given aws-cli command 
+  `aws s3 cp dist/* [s3uri] --recursive`
+2. Create one purge or invalidation in Cloudfront service of path `/*`
+  
+## Reference link:
+- ![Deploy static site using s3 and cloudfront](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serve-static-website/#:~:text=To%20serve%20a%20static%20website%20hosted%20on%20Amazon%20S3%2C%20you,with%20anonymous%20(public)%20access%20allowed)
+  
 
